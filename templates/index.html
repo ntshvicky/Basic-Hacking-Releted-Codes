@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Multi-Channel RTSP Stream</title>
+</head>
+<body>
+    <h1>Multi-Channel RTSP Stream</h1>
+
+    <div class="video-container">
+        <img src="{{ url_for('video', camera_id=0) }}" alt="Camera 0" style="width: 600px; height: 600px;">
+        <img src="{{ url_for('video', camera_id=1) }}" alt="Camera 1" style="width: 600px; height: 600px;"><br/>
+        <img src="{{ url_for('video', camera_id=2) }}" alt="Camera 2" style="width: 600px; height: 600px;">
+        <img src="{{ url_for('video', camera_id=3) }}" alt="Camera 3" style="width: 600px; height: 600px;">
+        <!-- Add more <img> tags for additional cameras -->
+    </div>
+</body>
+</html>

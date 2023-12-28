@@ -1,0 +1,12 @@
+requests
+scapy
+tqdm
+python-whois 
+ipwhois
+cryptography
+Pillow
+beautifulsoup4
+pydarknet 
+opencv-python
+flask
+ultralytics
